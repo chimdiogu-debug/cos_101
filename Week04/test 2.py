@@ -1,8 +1,3 @@
-count = 2
-
-while count>1 and count<20:
-    print (count)
-    count += 1
-    
-    
-    
+number = float(input("Enter any number: "))
+for num in range (1, number +1 ):
+    print (num)
